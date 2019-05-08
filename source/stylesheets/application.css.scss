@@ -16,7 +16,7 @@ $page-height: 99vh;
 
 .principle {
 
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   height: $page-height;
 
   .headline {
@@ -53,9 +53,13 @@ $page-height: 99vh;
     }
 
     @include desktop-xxl {
-      // font-size: $size-0;
       grid-column: 2/span 6;
     }
+  }
+
+  .logo {
+    grid-column: 2/-2;
+    width: 200px;
   }
 
 }
