@@ -8,7 +8,7 @@
 
 @import 'debug';
 
-$page-height: 98vh;
+$page-height: 99vh;
 
 .grid {
   @include main-grid($size-0);
@@ -30,12 +30,12 @@ $page-height: 98vh;
     }
 
     @include desktop-xl {
-      grid-column: 2/span 8;
+      grid-column: 2/span 6;
     }
 
     @include desktop-xxl {
-      font-size: 2.5vw;
-      grid-column: 2/span 8;
+      font-size: $size-1;
+      grid-column: 2/span 6;
     }
   }
 
@@ -49,12 +49,12 @@ $page-height: 98vh;
     }
 
     @include desktop-xl {
-      grid-column: 2/span 8;
+      grid-column: 2/span 6;
     }
 
     @include desktop-xxl {
-      font-size: 1.75vw;
-      grid-column: 2/span 8;
+      // font-size: $size-0;
+      grid-column: 2/span 6;
     }
   }
 
