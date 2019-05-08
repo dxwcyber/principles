@@ -10,3 +10,5 @@
     = javascript_include_tag "application"
   %body
     = yield
+    - if development?
+      = partial 'shared/debug'
