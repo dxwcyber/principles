@@ -1,0 +1,107 @@
+@import 'normalize';
+@import 'colours';
+@import 'breakpoints';
+@import 'sizes';
+@import 'mixins';
+@import 'layout';
+@import 'typography';
+
+@import 'debug';
+
+$page-height: 99vh;
+
+.grid {
+  @include main-grid($size-0);
+}
+
+.principle {
+
+  grid-template-rows: auto auto auto;
+  padding-top: $size-2;
+  padding-bottom: $size-3;
+
+  @include desktop {
+    height: $page-height;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .headline {
+    margin: 0;
+    align-self: end;
+    font-size: $size-0;
+    grid-column: 2/span 3;
+
+    @include desktop {
+      grid-column: 2/span 4;
+    }
+
+    @include desktop-xl {
+      grid-column: 2/span 6;
+    }
+
+    @include desktop-xxl {
+      font-size: $size-1;
+      grid-column: 2/span 6;
+    }
+  }
+
+  .text {
+    align-self: start;
+    font-size: $size--1;
+    grid-column: 2/span 3;
+
+    @include desktop {
+      grid-column: 2/span 4;
+    }
+
+    @include desktop-xl {
+      grid-column: 2/span 6;
+    }
+
+    @include desktop-xxl {
+      grid-column: 2/span 6;
+    }
+  }
+
+  .logo {
+    grid-column: 2/-2;
+    width: 200px;
+  }
+
+}
+
+.principle--people {
+  background-color: $dxw-blue;
+  color: $white;
+}
+
+.principle--trust {
+  background-color: $dxw-green;
+  color: $white;
+}
+
+.principle--everybody {
+  background-color: $dxw-pink;
+  color: $white;
+}
+
+.principle--chunks {
+  background-color: $dxw-turquoise;
+  color: $white;
+}
+
+.principle--resilient {
+  background-color: $dxw-purple;
+  color: $white;
+}
+
+.principle--never {
+  background-color: $dxw-light-blue;
+  color: $white;
+}
+
+.principle--communication {
+  background-color: $dxw-orange;
+  color: $white;
+}

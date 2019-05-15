@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$system-font-family-sans: -apple-system,
+'.SFNSText-Regular',
+'San Francisco',
+'Roboto',
+'Segoe UI',
+'Helvetica Neue',
+Sans-Serif;
+$font-normal: 'Lato',
+$system-font-family-sans;
+$font-bold: 'Lato',
+$system-font-family-sans;
+
+html {
+  font-size: 18px;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-normal;
+  line-height: 1.5;
+  color: $black;
+}
+
+h2 {
+  line-height: 1.35;
+}
+
+p {
+  margin: 0 0 $size-0 0;
+}

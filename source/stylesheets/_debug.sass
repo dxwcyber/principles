@@ -1,0 +1,50 @@
+#debug
+  position: fixed
+  z-index: 10
+  bottom: 0
+  right: 0
+  width: 100px
+  height: 20px
+  text-align: center
+  font-size: 12px
+  line-height: 22px
+  color: $white
+  background: blue
+  &:after
+    content: "No media query"
+
+  +mobile()
+    color: $white
+    background: red
+    &:after
+      content: "mobile"
+
+  +tablet()
+    color: $white
+    background: orange
+    &:after
+      content: "tablet"
+
+  +desktop()
+    color: $white
+    background: blue
+    &:after
+      content: "desktop"
+
+  +desktop-l()
+    color: $black
+    background: pink
+    &:after
+      content: "desktop-l"
+
+  +desktop-xl()
+    color: $white
+    background: purple
+    &:after
+      content: "desktop-xl"
+
+  +desktop-xxl()
+    color: $black
+    background: yellow
+    &:after
+      content: "desktop-xxl"

@@ -1,0 +1,204 @@
+$dxw-light-green: #17a978;
+$dxw-green: #006874;
+$dxw-orange: #d43c23;
+$dxw-yellow: #ffb72c;
+$dxw-red: #9f1f1f;
+$dxw-pink: #b15fa2;
+$dxw-purple: #5b527f;
+$dxw-turquoise: #108392;
+$dxw-blue: #006998; // dark blue
+$dxw-light-blue: #1893c8;
+$white: #fafafa;
+$pure-white: #ffffff;
+$off-white: #f5f5f5;
+$lighter-grey: #ebebeb;
+$light-grey: #666666;
+$black: #333333;
+$twitter: #1da1f2;
+$facebook: #3b5998;
+
+.bg-dxw-light-green {
+  background-color: $dxw-light-green;
+}
+
+.bg-dxw-green {
+  background-color: $dxw-green;
+  &.tint-80 {
+    background-color: tint($dxw-green, 80);
+  }
+}
+
+.bg-dxw-orange {
+  background-color: $dxw-orange;
+}
+
+.bg-dxw-yellow {
+  background-color: $dxw-yellow;
+}
+
+.bg-dxw-red {
+  background-color: $dxw-red;
+}
+
+.bg-dxw-pink {
+  background-color: $dxw-pink;
+}
+
+.bg-dxw-purple {
+  background-color: $dxw-purple;
+}
+
+.bg-dxw-turquoise {
+  background-color: $dxw-turquoise;
+}
+
+.bg-dxw-blue {
+  background-color: $dxw-blue;
+}
+
+.bg-dxw-light-blue {
+  background-color: $dxw-light-blue;
+  &.tint-80 {
+    background-color: tint($dxw-light-blue, 80);
+  }
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-pure-white {
+  background-color: $pure-white;
+}
+
+.bg-off-white {
+  background-color: $off-white;
+}
+
+.bg-light-grey {
+  background-color: $light-grey;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.dxw-light-green {
+  color: $dxw-light-green;
+}
+
+.dxw-green {
+  color: $dxw-green;
+}
+
+.dxw-orange {
+  color: $dxw-orange;
+}
+
+.dxw-yellow {
+  color: $dxw-yellow;
+}
+
+.dxw-red {
+  color: $dxw-red;
+}
+
+.dxw-pink {
+  color: $dxw-pink;
+}
+
+.dxw-purple {
+  color: $dxw-purple;
+}
+
+.dxw-turquoise {
+  color: $dxw-turquoise;
+}
+
+.dxw-blue {
+  color: $dxw-blue;
+}
+
+.dxw-light-blue {
+  color: $dxw-light-blue;
+}
+
+.white {
+  color: $white;
+}
+
+.pure-white {
+  color: $pure-white;
+}
+
+.off-white {
+  color: $off-white;
+}
+
+.light-grey {
+  color: $light-grey;
+}
+
+.black {
+  color: $black;
+}
+
+.btop-light-green {
+  border-top: 3px solid $dxw-light-green;
+}
+
+.btop-green {
+  border-top: 3px solid $dxw-green;
+}
+
+.btop-orange {
+  border-top: 3px solid $dxw-orange;
+}
+
+.btop-yellow {
+  border-top: 3px solid $dxw-yellow;
+}
+
+.btop-red {
+  border-top: 3px solid $dxw-red;
+}
+
+.btop-pink {
+  border-top: 3px solid $dxw-pink;
+}
+
+.btop-purple {
+  border-top: 3px solid $dxw-purple;
+}
+
+.btop-turquoise {
+  border-top: 3px solid $dxw-turquoise;
+}
+
+.btop-blue {
+  border-top: 3px solid $dxw-blue;
+}
+
+.btop-light-blue {
+  border-top: 3px solid $dxw-light-blue;
+}
+
+.btop-white {
+  border-top: 3px solid $white;
+}
+
+.btop-pure-white {
+  border-top: 3px solid $pure-white;
+}
+
+.btop-off-white {
+  border-top: 3px solid $off-white;
+}
+
+.btop-light-grey {
+  border-top: 3px solid $light-grey;
+}
+
+.btop-black {
+  border-top: 3px solid $black;
+}
